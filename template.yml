@@ -189,7 +189,7 @@ Resources:
           slotConstraint: Required
           slotType: 
             Ref: likertScaleSlot
-          #slotTypeVersion: "$LATEST"
+          slotTypeVersion: "$LATEST"
           valueElicitationPrompt:
             maxAttempts: 2
             messages:
@@ -201,7 +201,7 @@ Resources:
           slotConstraint: Required
           slotType: 
             Ref: zeroToThreeSlot
-          #slotTypeVersion: "$LATEST"
+          slotTypeVersion: "$LATEST"
           valueElicitationPrompt:
             maxAttempts: 2
             messages:
@@ -223,7 +223,7 @@ Resources:
           slotConstraint: Required
           slotType: 
             Ref: oneToFourSlot
-          #slotTypeVersion: "$LATEST"
+          slotTypeVersion: "$LATEST"
           valueElicitationPrompt:
             maxAttempts: 2
             messages:
@@ -235,7 +235,7 @@ Resources:
           slotConstraint: Required
           slotType: 
             Ref: likertScaleSlot
-          #slotTypeVersion: "$LATEST"
+          slotTypeVersion: "$LATEST"
           valueElicitationPrompt:
             maxAttempts: 2
             messages:
