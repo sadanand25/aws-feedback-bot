@@ -252,7 +252,7 @@ Resources:
       - conciergeBotIntent
     Properties: 
       ServiceToken:
-        Fn::ImportValue: cfn-lex-bot-1-0-4-ServiceToken
+        Fn::ImportValue: cfn-lex-bot-1-0-3-ServiceToken
       name: !Sub
         - '${AWS::StackName}_bot_${Workload}'
         - Workload: !Ref Workload
